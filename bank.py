@@ -490,8 +490,8 @@ def submit_login():
 				smtp_object = smtplib.SMTP('smtp.gmail.com',587)
 				smtp_object.ehlo()
 				smtp_object.starttls()
-				email = 'aegisbank101@gmail.com'
-				password = 'txvmnhgyeiaaglzl' 
+				email = 'your email'
+				password = 'enter your app password' 
 				smtp_object.login(email, password)
 				global otp
 				otp = str(random.randint(1000, 9999))
