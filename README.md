@@ -40,7 +40,7 @@ To deploy this project
     password = 'enter your app password'
   ``` 
 
-3. Open MySQL command line client and run 
+3. Open MySQL command line client and run command
 ```bash
   CREATE DATABASE aegis_bank
 ```
